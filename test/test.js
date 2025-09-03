@@ -1,5 +1,5 @@
-const { startBrowser } = require('./utils');
-const { findWikiTitle } = require('./SimpleTest');
+const { startBrowser } = require('../src/utils');
+const { findWikiTitle } = require('../src/SimpleTest');
 const browsers = ['chrome', 'firefox']; // List of browsers to test
 
 describe('Wikipedia Title Test', () => {
@@ -12,8 +12,6 @@ describe('Wikipedia Title Test', () => {
         });
     });
 });
-
-
 
 
 // Structure Overview
