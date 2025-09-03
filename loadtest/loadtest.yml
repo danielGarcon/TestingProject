@@ -1,0 +1,9 @@
+config:
+  target: "https://www.wikipedia.org"
+  phases:
+    - duration: 60
+      arrivalRate: 10 # 10 users per second
+scenarios:
+  - flow:
+      - get:
+          url: "/"

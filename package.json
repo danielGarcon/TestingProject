@@ -1,0 +1,25 @@
+{
+  "name": "webdriver-artillery-project",
+  "version": "1.0.0",
+  "description": "WebdriverIO automation and Artillery load testing",
+  "main": "src/utils.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "loadtest": "artillery run loadtest/loadtest.yml"
+  },
+  "dependencies": {
+    "@wdio/cli": "^8.0.0",
+    "artillery": "^2.0.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.2.11",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "@wdio/spec-reporter": "^9.2.8",
+    "@wdio/visual-service": "^6.0.0",
+    "chromedriver": "^128.0.3",
+    "mocha": "^10.8.2",
+    "selenium-webdriver": "^4.26.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
